@@ -1,0 +1,142 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* header {
+    background-color: #001f3f;
+    color: white;
+    display: flex;
+    justify-content:  space-between;
+    padding: 2rem 9%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #098399;
+  padding: 2rem 9%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 90%;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.site-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#home {
+  background-image: url(./ASSET/BG.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about {
+  background-color: #ffffff;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#about img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.menu {
+  padding: 50px 20px;
+}
+
+.content-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.content-menu .card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: auto;
+}
+
+.content-menu .card img {
+  max-width: 100%;
+  width: 500px;
+  height: 20vh;
+}
+
+#contact {
+  background-color: #c0c0c0;
+  text-align: center;
+}
+
+footer {
+  background-color: #1d6485;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
